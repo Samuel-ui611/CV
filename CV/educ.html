@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+	<meta name="viewport" content="width =device-width intial-scale = 1">
+
+	<style> @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Rubik+Vinyl&display=swap'); 
+	</style>
+
+</head>
+
+<body>
+
+
+	<div id="sideNav">
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="profile.html">profile</a></li>
+				<li><a href="educ.html">education</a></li>
+				<li><a href="work.html">work experience</a></li>
+				<li><a href="gallery.html">gallery</a></li>	
+			</ul>
+		</nav>
+		<hr>
+		<div class="title-text">
+		<p style="color:red">MURWANI SAMUEL</p>
+	
+	</div>
+			
+		</div>
+
+			<div id="menubtn">
+				<img src="images/img.png" width="50px" id="menu">
+			
+
+		</div>
+	<!---kuku--->
+	<section id="kuku">
+		<div class="title-text">
+			<p>Education Background</p>
+		<h1>Schools Attended</h1>
+		</div>
+
+
+		<div class="kuku-box">
+			<div class="kuku">
+			<h1>Mbarara Preparatory school (2005-2015)</h1>
+			<div class="kuku-desc">
+				<div class="kuku-icon">
+					<i class="bi bi-check-circle-fill"></i>
+				</div>
+				<div class="kuku-text">
+					<p>Did my Primary level Education from here and attained a Primary Leaving Examination Certification in 2015</p>
+				</div>
+				
+			<div class="kuku-img">
+				<img src="images/prep.jpg">
+				</div>
+			</div>
+
+			<h1>Mbarara High School (2016-2019)</h1>
+			<div class="kuku-desc">
+				<div class="kuku-icon">
+					<i class="bi bi-check-circle-fill"></i>
+				</div>
+				<div class="kuku-text">
+					<p>
+						Joined in 2016 and acquired a Uganda Certificate of Education in 2019
+					</p>
+				</div>
+				<div class="kuku-img">
+					<img src="images/mbarara.jpg">
+					</div>
+			</div>
+			<h1>Mbarara High School (2020-2022)</h1>
+			<div class="kuku-desc">
+				<div class="kuku-icon">
+					<i class="bi bi-check-circle-fill"></i>
+				</div>
+				<div class="kuku-text">
+					<p> Rejoined Mbarara High School for my Advanced level. Did Physics, Economics and Math. <br>Attained my Uganda Advanced Certificate of Education in 2022</p>
+				</div>
+			</div>
+			<h1>Uganda Christian University (2023)</h1>
+			<div class="kuku-desc">
+				<div class="kuku-icon">
+					<i class="bi bi-check-circle-fill"></i>
+				</div>
+				<div class="kuku-text">
+					<p>joined Uganda christian university in 2023. <br> pursuing my Diploma in Information Technology</p>
+				</div>
+				<div class="kuku-img">
+					<img src="images/ucu.jpg">
+					</div>
+			
+			</div>
+			
+
+		</div>
+
+	</section>
+
+
+
+		<!-----footer----->
+		<section class="footer">
+			<div class="title-text">
+				   <p>ABOUT ME</p>
+			   </div>
+			<P>Murwani Samuel <br>
+				DEIT <br>
+				murwanisamuel@gmail.com
+			</P>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-whatsapp"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-envelope"></i>
+			</div>
+			<p>&copy;2024 Reserved by Murwani samuel </p>
+		</section>
+
+
+
+
+<script type="text/javascript">
+	var menubtn = document.getElementById("menubtn")
+	var sideNav = document.getElementById("sideNav")
+	var menu = document.getElementById("menu")
+
+	sideNav.style.right = "-250px";
+
+	menubtn.onclick = function(){
+		if (sideNav.style.right == "-250px"){
+			sideNav.style.right = "0";
+			menu.src = "images/close.png";
+		} 
+		else{
+			sideNav.style.right = "-250px";
+			menu.src = "images/img.png";
+		}
+	}
+</script>
+</body>
+</html>
